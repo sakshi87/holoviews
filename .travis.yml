@@ -24,6 +24,7 @@ env:
     - CHANS="-c pyviz"
     - MPLBACKEND="Agg"
     - PYTHON_VERSION=3.7
+    - numpy==18.0
 
 stages:
   - test
